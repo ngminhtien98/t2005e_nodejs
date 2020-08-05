@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> <%= title %> </title>
+    <link rel="stylesheet" href="css/home.css">
+    <script type="text/javascript" src="js/jQuery_v3.5.1.js"></script>
+</head>
+<body>
+<section class="section">
+    <h1>Views: <%= counter %></h1>
+    <div class="container">
+    </div>
+</section>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://api.openweathermap.org/data/2.5/forecast",
+        method:"get",
+        data: {
+            q: "Hanoi,vietnam",
+            appid: "09a71427c59d38d6a34f89b47d75975c",
+            units: "metric"
+        },
+        success: (rs) => {
+            for (var i of rs.list){
+                $(".container").append(`
+                    <div class="box">
+                        <div class="content">
+                                <p class="dateTime"> ${i.dt_txt} </p>
+                                <div class="tempInfo">
+                                    <div class="temp">${i.main.temp}<sup>o</sup>C</div>
+                                    <div class="img"><img src="https://openweathermap.org/img/wn/${i.weather[0].icon}@2x.png"></div>
+                                </div>
+                                <div class="description">${i.weather[0].description}</div>
+                        </div>
+                    </div>`)
+            }
+        }
+    })
+</script>
+</body>
+</html>

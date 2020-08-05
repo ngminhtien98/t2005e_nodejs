@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "image": "/img/labs10/LabS10.1.png",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "image": "/img/labs10/LabS10.2.png",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "name": "Apple",
+    "image": "/img/labs10/LabS10.3.png",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "name": "Tablet",
+    "image": "/img/labs10/LabS10.4.png",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch",
+    "image": "/img/labs10/LabS10.5.png",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "name": "Case",
+    "image": "/img/labs10/LabS10.6.png",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "name": "Headphone",
+    "image": "/img/labs10/LabS10.7.png",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "name": "MemoryCard",
+    "image": "/img/labs10/LabS10.8.png",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "name": "Speaker",
+    "image": "/img/labs10/LabS10.9.png",
+    "link": "#"
+  },
+  {
+    "id": 10,
+    "name": "ChargingCable",
+    "image": "/img/labs10/LabS10.10.png",
+    "link": "#"
+  },
+  {
+    "id": 11,
+    "name": "Computer",
+    "image": "/img/labs10/LabS10.11.png",
+    "link": "#"
+  },
+  {
+    "id": 12,
+    "name": "Printer",
+    "image": "/img/labs10/LabS10.12.png",
+    "link": "#"
+  }
+]

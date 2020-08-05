@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('head_labs10.ejs'); %>
+<body>
+<section class = "section">
+    <div class="container">
+        <div class="categories" id="cats">
+            <% cats.map(function (e) { %>
+                <div class="product"><a href="/detail/<%= e.id %>"><div class="itemImg"><img src="<%= e.image %>"></div><div class="itemName"><%= e.name %></div></a></div>
+            <% }) %>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
